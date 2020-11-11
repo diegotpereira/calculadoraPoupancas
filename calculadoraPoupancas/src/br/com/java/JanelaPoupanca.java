@@ -30,13 +30,13 @@ public class JanelaPoupanca extends JFrame{
 		
 		lbJuros = new JLabel ("Juros ao mês %:");
 		campoJuros = new JTextField(15);
-		
 		painel.add(lbJuros);
+		
 		painel.add(campoJuros);
 		lbAnos = new JLabel("Numero de anos:");
 		campoAnos = new JTextField(15);
-		
 		painel.add(lbAnos);
+		
 		painel.add(campoAnos);
 		lbDeposito = new JLabel("Depósito mensal R$:");
 		campoDeposito = new JTextField(15);
@@ -45,6 +45,9 @@ public class JanelaPoupanca extends JFrame{
 		painel.add(campoDeposito);
 		
 		lbTotal = new JLabel("Total poupado R$:");
+		painel.add(lbTotal);
+		
+		lbResultado = new JLabel("");
 		painel.add(lbResultado);
 		
 		ok = new JButton("OK");
